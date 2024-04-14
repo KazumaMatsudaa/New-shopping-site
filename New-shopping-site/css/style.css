@@ -1,0 +1,231 @@
+div{
+    display: block;
+}
+
+body{
+    font-family: "Tahoma" , sans-serif;
+    margin: 0%;
+}
+
+/*ヘッダー部分*/
+header {
+    height: 70px;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    position: fixed; 
+    align-items: center;
+    justify-content: space-between;
+    z-index: 20;
+    padding: 5px 10px;
+}
+
+.site-header {
+    border-bottom: 1px solid;
+    border-bottom-color: #e8e8e1;
+}
+
+.menu-icon{
+    padding-left: 80px;
+    padding-right: 60px;
+    justify-content: flex-start;
+    flex: 0 1 auto;
+}
+
+.menu-button-box{
+    width: 27px;
+    height: 27px;
+}
+
+.menu-button{
+    width: 27px;
+    height: 27px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    fill: white;   /*アイコンの中の色*/
+    stroke: black; /* 線を黒にする */
+    stroke-width: 2.5px; 
+}
+
+.site-header-logo{
+    margin: 0 28px;
+}
+
+.icon{
+    padding-right: 100px;
+    justify-content: flex-end;
+    flex: 0 1 auto;
+}
+
+svg{
+    display: inline-block;
+} 
+
+.icon-button{
+    width: 27px;
+    height: 27px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    fill: white;   /*アイコンの中の色*/
+    stroke: black; /* 線を黒にする */
+    stroke-width: 2.5px; 
+}
+
+.a-icon{
+    fill: white;
+}
+
+
+/*メイン部分*/
+
+
+main{
+    margin: 0px 20px 100px;
+}
+
+.main-page{
+    height: auto;
+    margin: 0 20px;
+}
+
+.main-box{
+    box-sizing: border-box;
+    margin: 24px;
+}
+
+h1{
+    font-style: normal;
+}
+
+.main-box-title{
+    font-family: "Tahoma" , sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin: 140px 10px 30px;
+}
+
+.main-box-products{
+    width: 100%;
+    padding: 20px 40px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.main-box-three-product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.item-box-one-product img{
+    display: flex;
+    height: 365px;
+    width: 365px;
+    max-width: 100%;
+    border: 2px solid;
+    border-color: #f1f1f0;
+
+}
+
+.item-name-price-box{
+    font-family: 'Segoe UI Light', Segoe UI, Arial, sans-serif;
+    font-weight: 800;
+    position: relative;
+    padding: 15px 0 50px;
+}
+
+.item-name{
+    font-size: 16px;
+    padding-bottom: 6px;
+    letter-spacing: 0.12em;
+}
+
+.item-price{
+    font-size: 13px;
+    padding: 10px 0;
+    letter-spacing: 0.2em;
+}
+
+.main-view-all{
+    margin: 60px 30px 30px;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+
+.a-view-all{
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+    font-family:  "Tahoma" , sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+/*ヘッダー部分*/
+footer{
+    padding: 80px 0 60px;
+}
+
+.site-footer{
+    background-color: black;
+    color: white;
+    
+}
+
+.footer-box{
+    padding: 0 40px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-left-menu{
+    width: 33.333333%;
+    padding: 0px;
+    justify-content: flex-start;
+}
+
+.footer-text-title{
+    font-size: 18px;
+    padding: 8px;
+    letter-spacing: 0.28em;
+
+}
+
+.footer-text-a{
+    font-size: 14px;
+    padding: 8px;
+}
+
+.footer-center-menu{
+    width: 33.333333%;
+}
+
+
+.footer-right-menu{
+    width: 33.333333%;
+    padding: 0px;
+    justify-content: flex-end;
+}
+
+.footer-logo-name{
+    justify-self: center;
+}
+
+.null-space{
+    width: 100%;
+    height: 1000px;
+}
